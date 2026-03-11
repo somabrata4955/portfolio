@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 // ─── Photo is in your public folder ──────────────────────────
 // Place your photo at:  public/assets/portfolio image.png
-const profilePhoto = "/assets/portfolio image.png";
+const profilePhoto = process.env.PUBLIC_URL + "/assets/profile.png";
 
 // ============================================================
 // DATA - Edit your personal info here

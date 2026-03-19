@@ -9,74 +9,78 @@ const profilePhoto = process.env.PUBLIC_URL + "/assets/profile.png";
 
 const MY_NAME = "Somabrata Sahoo";
 const MY_TITLE = "Flutter Developer";
-const MY_EMAIL = "somabrata@email.com";
-const MY_GITHUB = "https://github.com/somabrata";
-const MY_LINKEDIN = "https://linkedin.com/in/somabrata-sahoo";
+const MY_EMAIL = "somabrata2001@gmail.com";
+const MY_GITHUB = "https://github.com/somabrata4955";
+const MY_LINKEDIN = "https://www.linkedin.com/in/somabrata-sahoo-4780b7205";
+const MY_RESUME = process.env.PUBLIC_URL + "assets/SomabrataCv.pdf";
 
 const SKILLS = [
-  { name: "Flutter",        level: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" },
-  { name: "Dart",           level: 88, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" },
-  { name: "Android",        level: 75, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg" },
-  { name: "Firebase",       level: 82, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" },
-  { name: "REST APIs",      level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" },
-  { name: "Git",            level: 88, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" },
-  { name: "GitHub",         level: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" },
-  { name: "Postman",        level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" },
+  { name: "Flutter", level: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" },
+  { name: "Dart", level: 88, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" },
+  { name: "Android", level: 75, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg" },
+  { name: "Firebase", level: 82, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" },
+  { name: "REST APIs", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" },
+  { name: "Git", level: 88, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" },
+  { name: "GitHub", level: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" },
+  { name: "Postman", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" },
   { name: "Android Studio", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg" },
-  { name: "VS Code",        level: 92, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" },
+  { name: "VS Code", level: 92, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" },
+  { name: "Xcode", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xcode/xcode-original.svg" },
+  { name: "Swift", level: 40, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" },
+  { name: "Kotlin", level: 45, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" },
 ];
 
 const PROJECTS = [
+  // {
+  //   title: "ShopWave – E-Commerce App",
+  //   desc: "A full-featured shopping app with cart, order tracking, and Stripe payments.",
+  //   tech: ["Flutter", "Firebase", "Stripe"],
+  //   icon: "🛍️",
+  //   color: "#22d3ee",
+  //   github: "#",
+  //   demo: "#",
+  // },
   {
-    title: "ShopWave – E-Commerce App",
-    desc: "A full-featured shopping app with cart, order tracking, and Stripe payments.",
-    tech: ["Flutter", "Firebase", "Stripe"],
-    icon: "🛍️",
-    color: "#22d3ee",
-    github: "#",
-    demo: "#",
-  },
-  {
-    title: "ChatSphere – Messaging App",
+    title: "Mini Chat – Messaging App",
     desc: "Real-time chat with end-to-end encryption, media sharing, and push notifications.",
-    tech: ["Flutter", "Firebase", "WebSockets"],
+    tech: ["Flutter", "Firebase", "API"],
     icon: "💬",
     color: "#a78bfa",
-    github: "#",
-    demo: "#",
+    github: "https://github.com/somabrata4955/Mini-chat-app",
+    demo: "https://github.com/somabrata4955/Mini-chat-app",
   },
-  {
-    title: "SkyPulse – Weather App",
-    desc: "Animated weather forecasting app with location-based updates and 7-day forecast.",
-    tech: ["Flutter", "REST API", "Geolocator"],
-    icon: "🌤️",
-    color: "#38bdf8",
-    github: "#",
-    demo: "#",
-  },
+  // {
+  //   title: "SkyPulse – Weather App",
+  //   desc: "Animated weather forecasting app with location-based updates and 7-day forecast.",
+  //   tech: ["Flutter", "REST API", "Geolocator"],
+  //   icon: "🌤️",
+  //   color: "#38bdf8",
+  //   github: "#",
+  //   demo: "#",
+  // },
   {
     title: "CoinTrack – Expense Tracker",
     desc: "Personal finance tracker with budget goals, analytics, and CSV export.",
     tech: ["Flutter", "Hive DB", "Charts"],
     icon: "💰",
     color: "#34d399",
-    github: "#",
-    demo: "#",
+    github: "https://github.com/somabrata4955/Expense-tracker",
+    demo: "https://github.com/somabrata4955/Expense-tracker",
   },
-  {
-    title: "NewsFlow – News Aggregator",
-    desc: "Curated news reader with topic filtering and offline reading mode.",
-    tech: ["Flutter", "NewsAPI", "SQLite"],
-    icon: "📰",
-    color: "#fb923c",
-    github: "#",
-    demo: "#",
-  },
+  // {
+  //   title: "NewsFlow – News Aggregator",
+  //   desc: "Curated news reader with topic filtering and offline reading mode.",
+  //   tech: ["Flutter", "NewsAPI", "SQLite"],
+  //   icon: "📰",
+  //   color: "#fb923c",
+  //   github: "#",
+  //   demo: "#",
+  // },
 ];
 
 const TIMELINE = [
-  { year: "2024", title: "Started Coding", desc: "Discovered programming and fell in love with building things.", icon: "🚀" },
-  { year: "2025", title: "Learned Flutter", desc: "Mastered Flutter & Dart. Built 10+ apps with Firebase integration.", icon: "🦋" },
+  { year: "2023", title: "Started Coding", desc: "Discovered programming and fell in love with building things.", icon: "🚀" },
+  { year: "2024", title: "Learned Flutter", desc: "Mastered Flutter & Dart. Built 10+ apps with Firebase integration.", icon: "🦋" },
   { year: "2026", title: "Production Developer", desc: "Building scalable, polished mobile apps for real-world users.", icon: "⚡" },
 ];
 
@@ -116,7 +120,7 @@ export default function App() {
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [scrolled, setScrolled]  = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   // Change navbar style when user scrolls
   useEffect(() => {
@@ -162,8 +166,8 @@ function Navbar() {
               borderRadius: 8, fontSize: 14, fontWeight: 500,
               textTransform: "capitalize", transition: "all 0.2s",
             }}
-            onMouseEnter={e => { e.target.style.color = "#22d3ee"; e.target.style.background = "rgba(34,211,238,0.08)"; }}
-            onMouseLeave={e => { e.target.style.color = "rgba(255,255,255,0.65)"; e.target.style.background = "none"; }}>
+              onMouseEnter={e => { e.target.style.color = "#22d3ee"; e.target.style.background = "rgba(34,211,238,0.08)"; }}
+              onMouseLeave={e => { e.target.style.color = "rgba(255,255,255,0.65)"; e.target.style.background = "none"; }}>
               {link}
             </button>
           ))}
@@ -237,90 +241,94 @@ function Hero() {
       }} />
 
       {/* ── glow orbs ── */}
-      <div style={{ position:"absolute", top:"10%", left:"5%",  width:500, height:500, borderRadius:"50%", background:"radial-gradient(circle,#22d3ee,transparent 70%)", filter:"blur(100px)", opacity:0.09, pointerEvents:"none" }} />
-      <div style={{ position:"absolute", bottom:"10%", right:"5%", width:420, height:420, borderRadius:"50%", background:"radial-gradient(circle,#6366f1,transparent 70%)", filter:"blur(100px)", opacity:0.09, pointerEvents:"none" }} />
+      <div style={{ position: "absolute", top: "10%", left: "5%", width: 500, height: 500, borderRadius: "50%", background: "radial-gradient(circle,#22d3ee,transparent 70%)", filter: "blur(100px)", opacity: 0.09, pointerEvents: "none" }} />
+      <div style={{ position: "absolute", bottom: "10%", right: "5%", width: 420, height: 420, borderRadius: "50%", background: "radial-gradient(circle,#6366f1,transparent 70%)", filter: "blur(100px)", opacity: 0.09, pointerEvents: "none" }} />
 
       {/* ── centred content ── */}
-      <div style={{ position:"relative", zIndex:1, maxWidth:780, margin:"0 auto", padding:"120px 24px 80px", textAlign:"center" }}>
+      <div style={{ position: "relative", zIndex: 1, maxWidth: 780, margin: "0 auto", padding: "120px 24px 80px", textAlign: "center" }}>
 
         {/* Available badge */}
-        <div style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"7px 18px", borderRadius:99, border:"1px solid rgba(34,211,238,0.3)", color:"#22d3ee", fontSize:12, fontWeight:700, marginBottom:32, background:"rgba(34,211,238,0.06)", letterSpacing:"0.05em" }}>
-          <span style={{ width:8, height:8, borderRadius:"50%", background:"#4ade80", display:"inline-block", animation:"heroPulse 2s infinite" }} />
+        <div style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "7px 18px", borderRadius: 99, border: "1px solid rgba(34,211,238,0.3)", color: "#22d3ee", fontSize: 12, fontWeight: 700, marginBottom: 32, background: "rgba(34,211,238,0.06)", letterSpacing: "0.05em" }}>
+          <span style={{ width: 8, height: 8, borderRadius: "50%", background: "#4ade80", display: "inline-block", animation: "heroPulse 2s infinite" }} />
           Available for freelance &amp; full-time
         </div>
 
         {/* Greeting line */}
-        <p style={{ color:"rgba(255,255,255,0.45)", fontSize:18, fontWeight:500, marginBottom:12, letterSpacing:"0.02em" }}>
+        <p style={{ color: "rgba(255,255,255,0.45)", fontSize: 18, fontWeight: 500, marginBottom: 12, letterSpacing: "0.02em" }}>
           Hi there, I'm
         </p>
 
         {/* Big name */}
-        <h1 style={{ fontSize:"clamp(3.2rem,8vw,6.5rem)", fontWeight:900, lineHeight:0.95, color:"white", marginBottom:20 }}>
+        <h1 style={{ fontSize: "clamp(3.2rem,8vw,6.5rem)", fontWeight: 900, lineHeight: 0.95, color: "white", marginBottom: 20 }}>
           {MY_NAME.split(" ")[0]}&nbsp;
-          <span style={{ background:"linear-gradient(135deg,#22d3ee,#6366f1)", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent" }}>
+          <span style={{ background: "linear-gradient(135deg,#22d3ee,#6366f1)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
             {MY_NAME.split(" ")[1]}
           </span>
         </h1>
 
         {/* Divider + title */}
-        <div style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:16, marginBottom:28 }}>
-          <div style={{ height:1, width:48, background:"linear-gradient(to right,transparent,#22d3ee)" }} />
-          <span style={{ color:"#22d3ee", fontSize:13, fontWeight:800, letterSpacing:"0.22em", textTransform:"uppercase" }}>{MY_TITLE}</span>
-          <div style={{ height:1, width:48, background:"linear-gradient(to left,transparent,#22d3ee)" }} />
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 16, marginBottom: 28 }}>
+          <div style={{ height: 1, width: 48, background: "linear-gradient(to right,transparent,#22d3ee)" }} />
+          <span style={{ color: "#22d3ee", fontSize: 13, fontWeight: 800, letterSpacing: "0.22em", textTransform: "uppercase" }}>{MY_TITLE}</span>
+          <div style={{ height: 1, width: 48, background: "linear-gradient(to left,transparent,#22d3ee)" }} />
         </div>
 
         {/* Short bio */}
-        <p style={{ color:"rgba(255,255,255,0.58)", fontSize:18, lineHeight:1.85, maxWidth:600, margin:"0 auto 40px" }}>
+        <p style={{ color: "rgba(255,255,255,0.58)", fontSize: 18, lineHeight: 1.85, maxWidth: 600, margin: "0 auto 40px" }}>
           I craft beautiful, high-performance mobile experiences with Flutter —
           from pixel-perfect UI to robust backend integration. I build apps
           that users love and businesses trust.
         </p>
 
         {/* CTA buttons */}
-        <div style={{ display:"flex", gap:16, justifyContent:"center", flexWrap:"wrap", marginBottom:64 }}>
+        <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap", marginBottom: 64 }}>
           <button
-            onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior:"smooth" })}
-            style={{ padding:"15px 32px", borderRadius:14, background:"linear-gradient(135deg,#22d3ee,#6366f1)", color:"white", fontWeight:800, fontSize:15, border:"none", cursor:"pointer", boxShadow:"0 0 30px rgba(34,211,238,0.3)", transition:"all 0.25s" }}
-            onMouseEnter={e => { e.currentTarget.style.transform="translateY(-2px)"; e.currentTarget.style.boxShadow="0 0 50px rgba(34,211,238,0.55)"; }}
-            onMouseLeave={e => { e.currentTarget.style.transform="translateY(0)"; e.currentTarget.style.boxShadow="0 0 30px rgba(34,211,238,0.3)"; }}>
+            onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
+            style={{ padding: "15px 32px", borderRadius: 14, background: "linear-gradient(135deg,#22d3ee,#6366f1)", color: "white", fontWeight: 800, fontSize: 15, border: "none", cursor: "pointer", boxShadow: "0 0 30px rgba(34,211,238,0.3)", transition: "all 0.25s" }}
+            onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 0 50px rgba(34,211,238,0.55)"; }}
+            onMouseLeave={e => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "0 0 30px rgba(34,211,238,0.3)"; }}>
             View Projects →
           </button>
-          <button
-            style={{ padding:"15px 32px", borderRadius:14, background:"transparent", color:"#22d3ee", fontWeight:800, fontSize:15, border:"1px solid rgba(34,211,238,0.4)", cursor:"pointer", transition:"all 0.25s" }}
-            onMouseEnter={e => { e.currentTarget.style.background="rgba(34,211,238,0.08)"; e.currentTarget.style.transform="translateY(-2px)"; }}
-            onMouseLeave={e => { e.currentTarget.style.background="transparent"; e.currentTarget.style.transform="translateY(0)"; }}>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+          <a
+            href={MY_RESUME}
+            download="Somabrata_Sahoo_Resume.pdf"
+            style={{ display: "inline-block", padding: "15px 32px", borderRadius: 14, background: "transparent", color: "#22d3ee", fontWeight: 800, fontSize: 15, border: "1px solid rgba(34,211,238,0.4)", cursor: "pointer", transition: "all 0.25s", textDecoration: "none" }}
+            onMouseEnter={e => { e.currentTarget.style.background = "rgba(34,211,238,0.08)"; e.currentTarget.style.transform = "translateY(-2px)"; }}
+            onMouseLeave={e => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.transform = "translateY(0)"; }}
+          >
             ↓ Download Resume
-          </button>
+          </a>
         </div>
 
         {/* Stats row */}
-        <div style={{ display:"flex", justifyContent:"center", gap:0 }}>
-          {[["10+","Apps Built"],["2+","Years Learning"],["5k+","GitHub Commits"]].map(([num, label], i) => (
+        <div style={{ display: "flex", justifyContent: "center", gap: 0 }}>
+          {[["5+", "Apps Built"], ["2+", "Years Learning"], ["5k+", "GitHub Commits"]].map(([num, label], i) => (
             <div key={label} style={{
-              flex:1, maxWidth:160, padding:"20px 0",
+              flex: 1, maxWidth: 160, padding: "20px 0",
               borderLeft: i === 0 ? "1px solid rgba(34,211,238,0.15)" : "none",
-              borderRight:"1px solid rgba(34,211,238,0.15)",
-              borderTop:"1px solid rgba(34,211,238,0.15)",
-              borderBottom:"1px solid rgba(34,211,238,0.15)",
-              background:"rgba(34,211,238,0.03)",
+              borderRight: "1px solid rgba(34,211,238,0.15)",
+              borderTop: "1px solid rgba(34,211,238,0.15)",
+              borderBottom: "1px solid rgba(34,211,238,0.15)",
+              background: "rgba(34,211,238,0.03)",
             }}>
-              <div style={{ fontSize:28, fontWeight:900, color:"#22d3ee", fontFamily:"'Rajdhani',sans-serif" }}>{num}</div>
-              <div style={{ fontSize:12, color:"rgba(255,255,255,0.4)", marginTop:4, letterSpacing:"0.05em" }}>{label}</div>
+              <div style={{ fontSize: 28, fontWeight: 900, color: "#22d3ee", fontFamily: "'Rajdhani',sans-serif" }}>{num}</div>
+              <div style={{ fontSize: 12, color: "rgba(255,255,255,0.4)", marginTop: 4, letterSpacing: "0.05em" }}>{label}</div>
             </div>
           ))}
         </div>
 
         {/* Social quick links */}
-        <div style={{ display:"flex", justifyContent:"center", gap:12, marginTop:32 }}>
+        <div style={{ display: "flex", justifyContent: "center", gap: 12, marginTop: 32 }}>
           {[
-            { label:"GitHub",   href: MY_GITHUB,   icon:"🐙" },
-            { label:"LinkedIn", href: MY_LINKEDIN,  icon:"💼" },
-            { label:"Email",    href:`mailto:${MY_EMAIL}`, icon:"📧" },
+            { label: "GitHub", href: MY_GITHUB, icon: "🐙" },
+            { label: "LinkedIn", href: MY_LINKEDIN, icon: "💼" },
+            { label: "Email", href: `mailto:${MY_EMAIL}`, icon: "📧" },
           ].map(s => (
             <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer"
-              style={{ display:"flex", alignItems:"center", gap:6, padding:"8px 16px", borderRadius:10, background:"rgba(255,255,255,0.04)", border:"1px solid rgba(34,211,238,0.12)", color:"rgba(255,255,255,0.6)", fontSize:13, fontWeight:600, transition:"all 0.2s" }}
-              onMouseEnter={e => { e.currentTarget.style.border="1px solid rgba(34,211,238,0.4)"; e.currentTarget.style.color="white"; e.currentTarget.style.background="rgba(34,211,238,0.08)"; }}
-              onMouseLeave={e => { e.currentTarget.style.border="1px solid rgba(34,211,238,0.12)"; e.currentTarget.style.color="rgba(255,255,255,0.6)"; e.currentTarget.style.background="rgba(255,255,255,0.04)"; }}>
+              style={{ display: "flex", alignItems: "center", gap: 6, padding: "8px 16px", borderRadius: 10, background: "rgba(255,255,255,0.04)", border: "1px solid rgba(34,211,238,0.12)", color: "rgba(255,255,255,0.6)", fontSize: 13, fontWeight: 600, transition: "all 0.2s" }}
+              onMouseEnter={e => { e.currentTarget.style.border = "1px solid rgba(34,211,238,0.4)"; e.currentTarget.style.color = "white"; e.currentTarget.style.background = "rgba(34,211,238,0.08)"; }}
+              onMouseLeave={e => { e.currentTarget.style.border = "1px solid rgba(34,211,238,0.12)"; e.currentTarget.style.color = "rgba(255,255,255,0.6)"; e.currentTarget.style.background = "rgba(255,255,255,0.04)"; }}>
               <span>{s.icon}</span> {s.label}
             </a>
           ))}
@@ -328,9 +336,9 @@ function Hero() {
       </div>
 
       {/* Scroll cue */}
-      <div style={{ position:"absolute", bottom:32, left:"50%", transform:"translateX(-50%)", display:"flex", flexDirection:"column", alignItems:"center", gap:6 }}>
-        <span style={{ color:"rgba(255,255,255,0.25)", fontSize:10, letterSpacing:"0.18em", textTransform:"uppercase" }}>Scroll</span>
-        <div style={{ width:1, height:40, background:"linear-gradient(to bottom, #22d3ee, transparent)", animation:"scrollFade 2s ease-in-out infinite" }} />
+      <div style={{ position: "absolute", bottom: 32, left: "50%", transform: "translateX(-50%)", display: "flex", flexDirection: "column", alignItems: "center", gap: 6 }}>
+        <span style={{ color: "rgba(255,255,255,0.25)", fontSize: 10, letterSpacing: "0.18em", textTransform: "uppercase" }}>Scroll</span>
+        <div style={{ width: 1, height: 40, background: "linear-gradient(to bottom, #22d3ee, transparent)", animation: "scrollFade 2s ease-in-out infinite" }} />
       </div>
 
       <style>{`
@@ -347,66 +355,66 @@ function Hero() {
 
 function About() {
   return (
-    <section id="about" style={{ padding:"100px 24px", background:"#07070f" }}>
-      <div style={{ maxWidth:1100, margin:"0 auto" }}>
+    <section id="about" style={{ padding: "100px 24px", background: "#07070f" }}>
+      <div style={{ maxWidth: 1100, margin: "0 auto" }}>
 
         <SectionTag text="About Me" />
 
-        <div style={{ display:"grid", gridTemplateColumns:"420px 1fr", gap:72, marginTop:52, alignItems:"start" }} className="about-grid">
+        <div style={{ display: "grid", gridTemplateColumns: "420px 1fr", gap: 72, marginTop: 52, alignItems: "start" }} className="about-grid">
 
           {/* ── LEFT: photo ───────────────────────────────── */}
-          <div style={{ position:"relative" }}>
+          <div style={{ position: "relative" }}>
 
             {/* Decorative corner accent top-left */}
-            <div style={{ position:"absolute", top:-16, left:-16, width:80, height:80, borderTop:"2px solid #22d3ee", borderLeft:"2px solid #22d3ee", borderRadius:"4px 0 0 0", zIndex:2 }} />
+            <div style={{ position: "absolute", top: -16, left: -16, width: 80, height: 80, borderTop: "2px solid #22d3ee", borderLeft: "2px solid #22d3ee", borderRadius: "4px 0 0 0", zIndex: 2 }} />
             {/* Decorative corner accent bottom-right */}
-            <div style={{ position:"absolute", bottom:-16, right:-16, width:80, height:80, borderBottom:"2px solid #6366f1", borderRight:"2px solid #6366f1", borderRadius:"0 0 4px 0", zIndex:2 }} />
+            <div style={{ position: "absolute", bottom: -16, right: -16, width: 80, height: 80, borderBottom: "2px solid #6366f1", borderRight: "2px solid #6366f1", borderRadius: "0 0 4px 0", zIndex: 2 }} />
 
             {/* Glow behind photo */}
-            <div style={{ position:"absolute", inset:0, borderRadius:20, background:"linear-gradient(135deg,rgba(34,211,238,0.2),rgba(99,102,241,0.2))", filter:"blur(30px)", opacity:0.6, zIndex:0 }} />
+            <div style={{ position: "absolute", inset: 0, borderRadius: 20, background: "linear-gradient(135deg,rgba(34,211,238,0.2),rgba(99,102,241,0.2))", filter: "blur(30px)", opacity: 0.6, zIndex: 0 }} />
 
             {/* The photo */}
-            <div style={{ position:"relative", zIndex:1, borderRadius:20, overflow:"hidden", border:"1px solid rgba(34,211,238,0.25)", boxShadow:"0 30px 80px rgba(0,0,0,0.5), 0 0 40px rgba(34,211,238,0.12)" }}>
+            <div style={{ position: "relative", zIndex: 1, borderRadius: 20, overflow: "hidden", border: "1px solid rgba(34,211,238,0.25)", boxShadow: "0 30px 80px rgba(0,0,0,0.5), 0 0 40px rgba(34,211,238,0.12)" }}>
               <img
                 src={profilePhoto}
                 alt={MY_NAME}
-                style={{ width:"100%", aspectRatio:"4/5", objectFit:"cover", display:"block" }}
+                style={{ width: "100%", aspectRatio: "4/5", objectFit: "cover", display: "block" }}
               />
               {/* Name plate overlay at bottom */}
-              <div style={{ position:"absolute", bottom:0, left:0, right:0, padding:"28px 24px 24px", background:"linear-gradient(to top, rgba(5,5,15,0.95) 0%, transparent 100%)" }}>
-                <div style={{ fontWeight:900, fontSize:22, color:"white", fontFamily:"'Rajdhani',sans-serif" }}>{MY_NAME}</div>
-                <div style={{ color:"#22d3ee", fontSize:12, fontWeight:700, letterSpacing:"0.14em", textTransform:"uppercase", marginTop:3 }}>{MY_TITLE}</div>
+              <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "28px 24px 24px", background: "linear-gradient(to top, rgba(5,5,15,0.95) 0%, transparent 100%)" }}>
+                <div style={{ fontWeight: 900, fontSize: 22, color: "white", fontFamily: "'Rajdhani',sans-serif" }}>{MY_NAME}</div>
+                <div style={{ color: "#22d3ee", fontSize: 12, fontWeight: 700, letterSpacing: "0.14em", textTransform: "uppercase", marginTop: 3 }}>{MY_TITLE}</div>
               </div>
             </div>
 
             {/* Floating experience badge */}
-            <div style={{ position:"absolute", top:24, right:-20, zIndex:3, padding:"12px 16px", borderRadius:14, background:"rgba(5,5,15,0.9)", border:"1px solid rgba(34,211,238,0.3)", backdropFilter:"blur(12px)", textAlign:"center", boxShadow:"0 8px 32px rgba(0,0,0,0.4)" }}>
-              <div style={{ fontSize:22, fontWeight:900, color:"#22d3ee", fontFamily:"'Rajdhani',sans-serif", lineHeight:1 }}>2+</div>
-              <div style={{ fontSize:10, color:"rgba(255,255,255,0.5)", fontWeight:600, letterSpacing:"0.08em", marginTop:3 }}>Yrs Experience</div>
+            <div style={{ position: "absolute", top: 24, right: -20, zIndex: 3, padding: "12px 16px", borderRadius: 14, background: "rgba(5,5,15,0.9)", border: "1px solid rgba(34,211,238,0.3)", backdropFilter: "blur(12px)", textAlign: "center", boxShadow: "0 8px 32px rgba(0,0,0,0.4)" }}>
+              <div style={{ fontSize: 22, fontWeight: 900, color: "#22d3ee", fontFamily: "'Rajdhani',sans-serif", lineHeight: 1 }}>2+</div>
+              <div style={{ fontSize: 10, color: "rgba(255,255,255,0.5)", fontWeight: 600, letterSpacing: "0.08em", marginTop: 3 }}>Yrs Experience</div>
             </div>
 
             {/* Floating apps badge */}
-            <div style={{ position:"absolute", bottom:80, left:-20, zIndex:3, padding:"12px 16px", borderRadius:14, background:"rgba(5,5,15,0.9)", border:"1px solid rgba(99,102,241,0.35)", backdropFilter:"blur(12px)", textAlign:"center", boxShadow:"0 8px 32px rgba(0,0,0,0.4)" }}>
-              <div style={{ fontSize:22, fontWeight:900, color:"#a78bfa", fontFamily:"'Rajdhani',sans-serif", lineHeight:1 }}>10+</div>
-              <div style={{ fontSize:10, color:"rgba(255,255,255,0.5)", fontWeight:600, letterSpacing:"0.08em", marginTop:3 }}>Apps Built</div>
+            <div style={{ position: "absolute", bottom: 80, left: -20, zIndex: 3, padding: "12px 16px", borderRadius: 14, background: "rgba(5,5,15,0.9)", border: "1px solid rgba(99,102,241,0.35)", backdropFilter: "blur(12px)", textAlign: "center", boxShadow: "0 8px 32px rgba(0,0,0,0.4)" }}>
+              <div style={{ fontSize: 22, fontWeight: 900, color: "#a78bfa", fontFamily: "'Rajdhani',sans-serif", lineHeight: 1 }}>5+</div>
+              <div style={{ fontSize: 10, color: "rgba(255,255,255,0.5)", fontWeight: 600, letterSpacing: "0.08em", marginTop: 3 }}>Apps Built</div>
             </div>
           </div>
 
           {/* ── RIGHT: bio + details ──────────────────────── */}
-          <div style={{ paddingTop:8 }}>
-            <h2 style={{ fontSize:"clamp(1.8rem,3.5vw,2.7rem)", color:"white", marginBottom:6, lineHeight:1.2 }}>
+          <div style={{ paddingTop: 8 }}>
+            <h2 style={{ fontSize: "clamp(1.8rem,3.5vw,2.7rem)", color: "white", marginBottom: 6, lineHeight: 1.2 }}>
               Passionate about
             </h2>
-            <h2 style={{ fontSize:"clamp(1.8rem,3.5vw,2.7rem)", marginBottom:28, lineHeight:1.2, background:"linear-gradient(135deg,#22d3ee,#6366f1)", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent" }}>
+            <h2 style={{ fontSize: "clamp(1.8rem,3.5vw,2.7rem)", marginBottom: 28, lineHeight: 1.2, background: "linear-gradient(135deg,#22d3ee,#6366f1)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
               building great apps
             </h2>
 
             {/* Bio paragraphs */}
-            <div style={{ color:"rgba(255,255,255,0.65)", fontSize:16, lineHeight:1.9, marginBottom:36 }}>
-              <p style={{ marginBottom:16 }}>
-                Hi! I'm <strong style={{ color:"white" }}>Somabrata Sahoo</strong>, a self-taught Flutter developer from Odisha, India, with a deep passion for crafting intuitive, high-performance mobile applications. My journey started in 2024 when I decided to turn my curiosity for technology into a real skill.
+            <div style={{ color: "rgba(255,255,255,0.65)", fontSize: 16, lineHeight: 1.9, marginBottom: 36 }}>
+              <p style={{ marginBottom: 16 }}>
+                Hi! I'm <strong style={{ color: "white" }}>Somabrata Sahoo</strong>, a self-taught Flutter developer from Odisha, India, with a deep passion for crafting intuitive, high-performance mobile applications. My journey started in 2024 when I decided to turn my curiosity for technology into a real skill.
               </p>
-              <p style={{ marginBottom:16 }}>
+              <p style={{ marginBottom: 16 }}>
                 Within a year, I immersed myself in the Flutter ecosystem — mastering Dart, state management (Provider &amp; BLoC), Firebase, and REST API integration. I love translating complex user needs into clean, elegant code.
               </p>
               <p>
@@ -415,54 +423,54 @@ function About() {
             </div>
 
             {/* Personal detail rows */}
-            <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:"10px 24px", marginBottom:36 }}>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "10px 24px", marginBottom: 36 }}>
               {[
-                ["📍","Location",   "Odisha, India"],
-                ["🎓","Education",  "Self-Taught Developer"],
-                ["📱","Speciality", "Flutter & Mobile Apps"],
-                ["🌐","Languages",  "Dart, English, Odia, Hindi"],
+                ["📍", "Location", "Odisha, India"],
+                ["🎓", "Education", "MCA"],
+                ["📱", "Speciality", "Flutter & Mobile Apps"],
+                // ["🌐","Languages",  "Dart, English, Odia, Hindi"],
               ].map(([icon, key, val]) => (
-                <div key={key} style={{ display:"flex", alignItems:"center", gap:10, padding:"10px 0", borderBottom:"1px solid rgba(255,255,255,0.06)" }}>
-                  <span style={{ fontSize:16 }}>{icon}</span>
+                <div key={key} style={{ display: "flex", alignItems: "center", gap: 10, padding: "10px 0", borderBottom: "1px solid rgba(255,255,255,0.06)" }}>
+                  <span style={{ fontSize: 16 }}>{icon}</span>
                   <div>
-                    <div style={{ fontSize:10, color:"rgba(255,255,255,0.35)", fontWeight:700, letterSpacing:"0.1em", textTransform:"uppercase" }}>{key}</div>
-                    <div style={{ fontSize:14, color:"rgba(255,255,255,0.8)", fontWeight:600, marginTop:1 }}>{val}</div>
+                    <div style={{ fontSize: 10, color: "rgba(255,255,255,0.35)", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase" }}>{key}</div>
+                    <div style={{ fontSize: 14, color: "rgba(255,255,255,0.8)", fontWeight: 600, marginTop: 1 }}>{val}</div>
                   </div>
                 </div>
               ))}
             </div>
 
             {/* Trait pills */}
-            <div style={{ display:"flex", flexWrap:"wrap", gap:10, marginBottom:36 }}>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 10, marginBottom: 36 }}>
               {[
-                { icon:"🎯", text:"Laser Focused" },
-                { icon:"⚡", text:"Fast Learner" },
-                { icon:"🏗️", text:"Clean Architecture" },
-                { icon:"🌍", text:"Open Source" },
-                { icon:"🔥", text:"Passionate Coder" },
-                { icon:"📐", text:"Detail-Oriented" },
+                { icon: "🎯", text: "Laser Focused" },
+                { icon: "⚡", text: "Fast Learner" },
+                { icon: "🏗️", text: "Clean Architecture" },
+                { icon: "🌍", text: "Open Source" },
+                { icon: "🔥", text: "Passionate Coder" },
+                { icon: "📐", text: "Detail-Oriented" },
               ].map(({ icon, text }) => (
-                <div key={text} style={{ display:"flex", alignItems:"center", gap:7, padding:"8px 14px", borderRadius:99, background:"rgba(34,211,238,0.07)", border:"1px solid rgba(34,211,238,0.18)", fontSize:13, fontWeight:600, color:"rgba(255,255,255,0.8)", transition:"all 0.2s", cursor:"default" }}
-                  onMouseEnter={e => { e.currentTarget.style.background="rgba(34,211,238,0.15)"; e.currentTarget.style.color="white"; }}
-                  onMouseLeave={e => { e.currentTarget.style.background="rgba(34,211,238,0.07)"; e.currentTarget.style.color="rgba(255,255,255,0.8)"; }}>
-                  <span style={{ fontSize:14 }}>{icon}</span> {text}
+                <div key={text} style={{ display: "flex", alignItems: "center", gap: 7, padding: "8px 14px", borderRadius: 99, background: "rgba(34,211,238,0.07)", border: "1px solid rgba(34,211,238,0.18)", fontSize: 13, fontWeight: 600, color: "rgba(255,255,255,0.8)", transition: "all 0.2s", cursor: "default" }}
+                  onMouseEnter={e => { e.currentTarget.style.background = "rgba(34,211,238,0.15)"; e.currentTarget.style.color = "white"; }}
+                  onMouseLeave={e => { e.currentTarget.style.background = "rgba(34,211,238,0.07)"; e.currentTarget.style.color = "rgba(255,255,255,0.8)"; }}>
+                  <span style={{ fontSize: 14 }}>{icon}</span> {text}
                 </div>
               ))}
             </div>
 
             {/* CTA row */}
-            <div style={{ display:"flex", gap:14, flexWrap:"wrap" }}>
+            <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
               <button
-                onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior:"smooth" })}
-                style={{ padding:"13px 28px", borderRadius:12, background:"linear-gradient(135deg,#22d3ee,#6366f1)", color:"white", fontWeight:800, fontSize:14, border:"none", cursor:"pointer", boxShadow:"0 0 24px rgba(34,211,238,0.28)", transition:"all 0.25s" }}
-                onMouseEnter={e => { e.currentTarget.style.transform="translateY(-2px)"; e.currentTarget.style.boxShadow="0 0 42px rgba(34,211,238,0.5)"; }}
-                onMouseLeave={e => { e.currentTarget.style.transform="translateY(0)"; e.currentTarget.style.boxShadow="0 0 24px rgba(34,211,238,0.28)"; }}>
+                onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+                style={{ padding: "13px 28px", borderRadius: 12, background: "linear-gradient(135deg,#22d3ee,#6366f1)", color: "white", fontWeight: 800, fontSize: 14, border: "none", cursor: "pointer", boxShadow: "0 0 24px rgba(34,211,238,0.28)", transition: "all 0.25s" }}
+                onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 0 42px rgba(34,211,238,0.5)"; }}
+                onMouseLeave={e => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "0 0 24px rgba(34,211,238,0.28)"; }}>
                 Get In Touch →
               </button>
               <a href={MY_GITHUB} target="_blank" rel="noopener noreferrer"
-                style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"13px 28px", borderRadius:12, background:"transparent", color:"#22d3ee", fontWeight:800, fontSize:14, border:"1px solid rgba(34,211,238,0.35)", transition:"all 0.25s" }}
-                onMouseEnter={e => { e.currentTarget.style.background="rgba(34,211,238,0.08)"; e.currentTarget.style.transform="translateY(-2px)"; }}
-                onMouseLeave={e => { e.currentTarget.style.background="transparent"; e.currentTarget.style.transform="translateY(0)"; }}>
+                style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "13px 28px", borderRadius: 12, background: "transparent", color: "#22d3ee", fontWeight: 800, fontSize: 14, border: "1px solid rgba(34,211,238,0.35)", transition: "all 0.25s" }}
+                onMouseEnter={e => { e.currentTarget.style.background = "rgba(34,211,238,0.08)"; e.currentTarget.style.transform = "translateY(-2px)"; }}
+                onMouseLeave={e => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.transform = "translateY(0)"; }}>
                 🐙 GitHub Profile
               </a>
             </div>
@@ -655,93 +663,131 @@ function Experience() {
 // ============================================================
 
 function Contact() {
-  const [form, setForm] = useState({ name: "", email: "", message: "" });
-  const [sent, setSent] = useState(false);
-
-  function handleSend() {
-    if (!form.name || !form.email || !form.message) {
-      alert("Please fill in all fields.");
-      return;
-    }
-    setSent(true);
-    setForm({ name: "", email: "", message: "" });
-    setTimeout(() => setSent(false), 3000);
-  }
-
-  const inputStyle = {
-    width: "100%", padding: "13px 16px", borderRadius: 12,
-    background: "rgba(255,255,255,0.04)", border: "1px solid rgba(34,211,238,0.18)",
-    color: "white", fontSize: 15, fontFamily: "inherit", outline: "none",
-    transition: "border 0.2s",
-  };
-
   return (
     <section id="contact" style={{ padding: "100px 24px", background: "#07070f" }}>
       <div style={{ maxWidth: 1100, margin: "0 auto" }}>
 
         <SectionTag text="Contact" />
-        <h2 style={{ fontSize: "clamp(2rem,4vw,3rem)", color: "white", marginTop: 12, marginBottom: 48 }}>
+        <h2 style={{ fontSize: "clamp(2rem,4vw,3rem)", color: "white", marginTop: 12, marginBottom: 16 }}>
           Let's work <span style={{ background: "linear-gradient(135deg,#22d3ee,#6366f1)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>together</span>
         </h2>
+        <p style={{ color: "rgba(255,255,255,0.45)", fontSize: 16, marginBottom: 60, maxWidth: 500 }}>
+          Got a project idea or just want to chat about Flutter? I'm always open to new opportunities.
+        </p>
 
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 60 }} className="two-col">
+        {/* Cards row */}
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 20, marginBottom: 60 }}>
+          {[
+            {
+              icon: "📧",
+              label: "Email Me",
+              value: MY_EMAIL,
+              href: `mailto:${MY_EMAIL}`,
+              desc: "Best way to reach me",
+              color: "#22d3ee",
+            },
+            {
+              icon: "💼",
+              label: "LinkedIn",
+              value: "View Profile →",
+              href: MY_LINKEDIN,
+              desc: "Let's connect professionally",
+              color: "#6366f1",
+            },
+            {
+              icon: "🐙",
+              label: "GitHub",
+              value: "See my work →",
+              href: MY_GITHUB,
+              desc: "Check out my repositories",
+              color: "#a78bfa",
+            },
+          ].map(item => (
+            <a
+              key={item.label}
+              href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: "flex", flexDirection: "column", gap: 16,
+                padding: 28, borderRadius: 20,
+                background: "rgba(255,255,255,0.03)",
+                border: "1px solid rgba(255,255,255,0.07)",
+                transition: "all 0.3s", textDecoration: "none",
+              }}
+              onMouseEnter={e => {
+                e.currentTarget.style.border = `1px solid ${item.color}55`;
+                e.currentTarget.style.background = `${item.color}08`;
+                e.currentTarget.style.transform = "translateY(-6px)";
+                e.currentTarget.style.boxShadow = `0 20px 50px rgba(0,0,0,0.3)`;
+              }}
+              onMouseLeave={e => {
+                e.currentTarget.style.border = "1px solid rgba(255,255,255,0.07)";
+                e.currentTarget.style.background = "rgba(255,255,255,0.03)";
+                e.currentTarget.style.transform = "translateY(0)";
+                e.currentTarget.style.boxShadow = "none";
+              }}
+            >
+              <div style={{
+                width: 52, height: 52, borderRadius: 14,
+                background: `${item.color}15`,
+                border: `1px solid ${item.color}30`,
+                display: "flex", alignItems: "center", justifyContent: "center",
+                fontSize: 24,
+              }}>
+                {item.icon}
+              </div>
 
-          {/* Contact info */}
-          <div>
-            <p style={{ color: "rgba(255,255,255,0.6)", fontSize: 16, lineHeight: 1.8, marginBottom: 32 }}>
-              Got a project idea or just want to chat about Flutter? I'm always open to new opportunities and conversations.
-            </p>
-
-            {[
-              { icon: "📧", label: "Email",    value: MY_EMAIL,    href: `mailto:${MY_EMAIL}` },
-              { icon: "💼", label: "LinkedIn", value: "in/alexdaniels-dev", href: MY_LINKEDIN },
-              { icon: "🐙", label: "GitHub",   value: "github.com/alexdaniels", href: MY_GITHUB },
-            ].map(item => (
-              <a key={item.label} href={item.href} target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", gap: 14, padding: 16, borderRadius: 14, background: "rgba(255,255,255,0.03)", border: "1px solid rgba(34,211,238,0.1)", marginBottom: 12, transition: "all 0.2s" }}
-                onMouseEnter={e => { e.currentTarget.style.border = "1px solid rgba(34,211,238,0.4)"; e.currentTarget.style.transform = "translateX(4px)"; }}
-                onMouseLeave={e => { e.currentTarget.style.border = "1px solid rgba(34,211,238,0.1)"; e.currentTarget.style.transform = "translateX(0)"; }}>
-                <span style={{ fontSize: 22 }}>{item.icon}</span>
-                <div>
-                  <div style={{ color: "#22d3ee", fontSize: 11, fontWeight: 800, letterSpacing: "0.12em", textTransform: "uppercase" }}>{item.label}</div>
-                  <div style={{ color: "rgba(255,255,255,0.7)", fontSize: 14 }}>{item.value}</div>
+              <div>
+                <div style={{ color: "rgba(255,255,255,0.4)", fontSize: 11, fontWeight: 700, letterSpacing: "0.12em", textTransform: "uppercase", marginBottom: 4 }}>
+                  {item.desc}
                 </div>
-              </a>
-            ))}
+                <div style={{ color: "white", fontWeight: 800, fontSize: 17, fontFamily: "'Rajdhani',sans-serif", marginBottom: 4 }}>
+                  {item.label}
+                </div>
+                <div style={{ color: item.color, fontSize: 13, fontWeight: 600 }}>
+                  {item.value}
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+
+        {/* Bottom CTA */}
+        <div style={{
+          padding: "40px 48px", borderRadius: 24,
+          background: "linear-gradient(135deg, rgba(34,211,238,0.07), rgba(99,102,241,0.07))",
+          border: "1px solid rgba(34,211,238,0.15)",
+          display: "flex", alignItems: "center", justifyContent: "space-between",
+          flexWrap: "wrap", gap: 24,
+        }}>
+          <div>
+            <div style={{ color: "white", fontWeight: 900, fontSize: "clamp(1.2rem,2.5vw,1.6rem)", fontFamily: "'Rajdhani',sans-serif", marginBottom: 6 }}>
+              Ready to build something great?
+            </div>
+            <div style={{ color: "rgba(255,255,255,0.45)", fontSize: 14 }}>
+              I'm currently available for freelance & full-time roles.
+            </div>
           </div>
 
-          {/* Contact form */}
-          <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-            <div>
-              <label style={{ display: "block", color: "rgba(255,255,255,0.4)", fontSize: 11, fontWeight: 800, letterSpacing: "0.12em", textTransform: "uppercase", marginBottom: 8 }}>Your Name</label>
-              <input type="text" placeholder="John Doe" value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} style={inputStyle}
-                onFocus={e => e.target.style.border = "1px solid rgba(34,211,238,0.55)"}
-                onBlur={e => e.target.style.border = "1px solid rgba(34,211,238,0.18)"} />
-            </div>
-            <div>
-              <label style={{ display: "block", color: "rgba(255,255,255,0.4)", fontSize: 11, fontWeight: 800, letterSpacing: "0.12em", textTransform: "uppercase", marginBottom: 8 }}>Email</label>
-              <input type="email" placeholder="john@example.com" value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} style={inputStyle}
-                onFocus={e => e.target.style.border = "1px solid rgba(34,211,238,0.55)"}
-                onBlur={e => e.target.style.border = "1px solid rgba(34,211,238,0.18)"} />
-            </div>
-            <div>
-              <label style={{ display: "block", color: "rgba(255,255,255,0.4)", fontSize: 11, fontWeight: 800, letterSpacing: "0.12em", textTransform: "uppercase", marginBottom: 8 }}>Message</label>
-              <textarea rows={5} placeholder="Tell me about your project..." value={form.message} onChange={e => setForm({ ...form, message: e.target.value })} style={{ ...inputStyle, resize: "none" }}
-                onFocus={e => e.target.style.border = "1px solid rgba(34,211,238,0.55)"}
-                onBlur={e => e.target.style.border = "1px solid rgba(34,211,238,0.18)"} />
-            </div>
-            <button onClick={handleSend} style={{
-              padding: "15px", borderRadius: 12, border: "none", cursor: "pointer",
-              background: sent ? "linear-gradient(135deg,#10b981,#059669)" : "linear-gradient(135deg,#22d3ee,#6366f1)",
-              color: "white", fontWeight: 800, fontSize: 15, transition: "all 0.3s",
+          <a
+            href={`mailto:${MY_EMAIL}`}
+            style={{
+              padding: "14px 32px", borderRadius: 14,
+              background: "linear-gradient(135deg,#22d3ee,#6366f1)",
+              color: "white", fontWeight: 800, fontSize: 15,
+              textDecoration: "none", whiteSpace: "nowrap",
+              boxShadow: "0 0 30px rgba(34,211,238,0.25)",
+              transition: "all 0.25s",
             }}
-              onMouseEnter={e => e.target.style.opacity = "0.88"}
-              onMouseLeave={e => e.target.style.opacity = "1"}>
-              {sent ? "✓ Message Sent!" : "Send Message →"}
-            </button>
-          </div>
+            onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 0 50px rgba(34,211,238,0.5)"; }}
+            onMouseLeave={e => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "0 0 30px rgba(34,211,238,0.25)"; }}
+          >
+            Say Hello 👋
+          </a>
         </div>
+
       </div>
-      <style>{`@media(max-width:768px){ .two-col{ grid-template-columns:1fr !important; } }`}</style>
     </section>
   );
 }
@@ -764,7 +810,7 @@ function Footer() {
         {/* Social icons */}
         <div style={{ display: "flex", gap: 10 }}>
           {[
-            { icon: "🐙", href: MY_GITHUB,   label: "GitHub" },
+            { icon: "🐙", href: MY_GITHUB, label: "GitHub" },
             { icon: "💼", href: MY_LINKEDIN, label: "LinkedIn" },
             { icon: "📧", href: `mailto:${MY_EMAIL}`, label: "Email" },
           ].map(s => (
@@ -779,9 +825,9 @@ function Footer() {
         {/* Copyright */}
         <div style={{ textAlign: "right" }}>
           <div style={{ color: "rgba(255,255,255,0.3)", fontSize: 12 }}>© {new Date().getFullYear()} {MY_NAME}. All rights reserved.</div>
-          <div style={{ color: "rgba(255,255,255,0.2)", fontSize: 12, marginTop: 2 }}>
+          {/* <div style={{ color: "rgba(255,255,255,0.2)", fontSize: 12, marginTop: 2 }}>
             Built with <span style={{ color: "#22d3ee" }}>React</span> & <span style={{ color: "#6366f1" }}>Tailwind CSS</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

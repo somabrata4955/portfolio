@@ -12,7 +12,7 @@ const MY_TITLE = "Flutter Developer";
 const MY_EMAIL = "somabrata2001@gmail.com";
 const MY_GITHUB = "https://github.com/somabrata4955";
 const MY_LINKEDIN = "https://www.linkedin.com/in/somabrata-sahoo-4780b7205";
-const MY_RESUME = process.env.PUBLIC_URL + "assets/SomabrataCv.pdf";
+const MY_RESUME = process.env.PUBLIC_URL + "/assets/SomabrataCv.pdf";
 
 const SKILLS = [
   { name: "Flutter", level: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" },
